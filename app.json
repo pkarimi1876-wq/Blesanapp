@@ -20,11 +20,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.appblesan.blesanapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "بڵەسەن"
+   "description": "Bllasan",
+    "extra": {
+      "eas": {
+        "projectId": "daa5a0ec-1690-4091-ae15-8db2fda37c65"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
