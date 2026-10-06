@@ -1,3 +1,4 @@
+
 {
   "cli": {
     "version": ">= 24.11.0",
@@ -14,6 +15,12 @@
         "buildType": "apk"
       }
     },
+    "Preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
     "production": {
       "autoIncrement": true
     }
@@ -22,3 +29,4 @@
     "production": {}
   }
 }
+
